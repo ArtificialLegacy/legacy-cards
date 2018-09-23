@@ -7,7 +7,9 @@ function setup(){
 }
 
 function preload(){
-  
+  loadAssets((err) => {
+    if(err) throw err;
+  });
 }
 
 function mouseClicked(){
