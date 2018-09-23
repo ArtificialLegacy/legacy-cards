@@ -1,4 +1,4 @@
-import MenuHandler from './scripts/menuHandler.js';
+import MenuHandler from './base/menuHandler.js';
 function menuMain(){
   fill(100);
   rect(0, 0, 750, 750);
@@ -15,3 +15,7 @@ function loadCanvas(){
   createCanvas(750, 750);
   background(0);
 }
+
+let menuHandler = new MenuHandler({
+  "main": menuMain;
+});
