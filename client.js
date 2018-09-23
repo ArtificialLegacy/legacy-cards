@@ -1,4 +1,4 @@
-import Button from './scripts/buttons.js';
+import Button from './base/buttons.js';
 
 
 // Events
