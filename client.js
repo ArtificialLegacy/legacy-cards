@@ -3,7 +3,7 @@ import Button from './scripts/buttons.js';
 
 // Events
 function setup(){
-  
+  loadCanvas();
 }
 
 function preload(){
