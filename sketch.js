@@ -2,6 +2,9 @@ function menuMain(){
   
 }
 
-function loadAssets(){
-  
+function loadAssets(tempCallback){
+  let error = false;
+  if(error !== false){
+    tempCallback(error);
+  }
 }
