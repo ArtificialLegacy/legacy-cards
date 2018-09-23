@@ -1,3 +1,4 @@
+import MenuHandler from './scripts/menuHandler.js';
 function menuMain(){
   fill(100);
   rect(0, 0, 750, 750);
