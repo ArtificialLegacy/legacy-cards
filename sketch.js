@@ -1,1 +1,7 @@
+function menuMain(){
+  
+}
 
+function loadAssets(){
+  
+}
