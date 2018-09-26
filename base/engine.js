@@ -1,8 +1,9 @@
 class Engine() {
-  constructor(){
+  constructor(tempDeck0, tempDeck1){
     this.phase = "start";
+    this.chainAct = false;
     this.field1 = {
-      "deck": [],
+      "deck": tempDeck0,
       "hand": [],
       "grave": [],
       "resources": {
@@ -35,7 +36,7 @@ class Engine() {
       },
     };
     this.field2 = {
-      "deck": [],
+      "deck": tempDeck1,
       "hand": [],
       "grave": [],
       "resources": {
