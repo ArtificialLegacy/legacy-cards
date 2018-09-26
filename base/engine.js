@@ -5,6 +5,11 @@ class Engine() {
       "deck": [],
       "hand": [],
       "grave": [],
+      "resources": {
+        "mana": 0,
+        "gold": 0,
+        "food": 0,
+      },
       "creature": {
         "1": {},
         "2": {},
@@ -33,6 +38,11 @@ class Engine() {
       "deck": [],
       "hand": [],
       "grave": [],
+      "resources": {
+        "mana": 0,
+        "gold": 0,
+        "food": 0,
+      },
       "creature": {
         "1": {},
         "2": {},
