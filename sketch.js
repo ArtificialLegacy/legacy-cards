@@ -14,6 +14,7 @@ function loadAssets(tempCallback){
 function loadCanvas(){
   createCanvas(750, 750);
   background(0);
+  noCursor();
 }
 
 let menuHandler = new MenuHandler({
